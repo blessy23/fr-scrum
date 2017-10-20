@@ -1,14 +1,13 @@
 {
-    "presets": [
-      "env", "react", "es2015", "stage-0"
-    ],
-    "plugins": ["transform-class-properties",
-      "transform-runtime", 
-      "transform-decorators-legacy",
-      ["module-resolver", {
-        "root": ["./src"]
-      }]
-    ]
-  
-  }
-  
+  "presets": [
+    "env", "react", "es2015", "stage-0"
+  ],
+  "plugins": ["transform-class-properties",
+    "transform-runtime", 
+    "transform-decorators-legacy",
+    ["module-resolver", {
+      "root": ["./src"]
+    }]
+  ]
+
+}
